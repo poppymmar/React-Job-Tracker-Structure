@@ -1,0 +1,10 @@
+# Ignore build/dist files from language stats
+dist/* linguist-generated=true
+build/* linguist-generated=true
+
+# Optionally hide HTML files from stats
+*.html linguist-detectable=false
+
+# Markdown/docs files count as documentation, not code
+*.md linguist-documentation=true
+
